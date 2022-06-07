@@ -112,3 +112,29 @@ button {
     text-align: end;
     padding: 0px 40px;
 }
+
+.call-to-action {
+    padding: 80px 100px;
+}
+
+p {
+    margin: 0;
+}
+
+.text {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.action-box {
+    background-color: rgb(95, 166, 187);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+}
