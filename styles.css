@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: lightgreen;
 }
 
@@ -137,4 +137,12 @@ p {
 .action-left {
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
 }
