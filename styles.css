@@ -78,6 +78,7 @@ button {
 }
 
 .img {
+    border-radius: 20px;
     width: 140px;
     height: 140px;
     background-color: antiquewhite;
@@ -87,7 +88,7 @@ button {
 .container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     padding: 80px;
     padding-top: 0px;
 }
@@ -128,6 +129,7 @@ p {
 
 .action-box {
     background-color: rgb(95, 166, 187);
+    border-radius: 20px;
     height: 150px;
     display: flex;
     justify-content: space-around;
