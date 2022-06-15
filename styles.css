@@ -1,10 +1,11 @@
 body {
+    background-color: #FFF3D9;
     font-family:  'Lucida Console', 'Lucida Sans', monospace;
     margin: 0;
 }
 
 .header, .hero, .footer {
-    background-color: lightgreen;
+    background-color: #B8390E;
 }
 
 .header {
@@ -45,16 +46,11 @@ ul {
     flex-shrink: 0;
     height: 300px;
     width: 380px;
-    background-color: azure;
+    background-color: #3B0918;
 }
 
 .left {
     width: 600px;
-}
-
-button {
-    height: 30px;
-    width: 80px;
 }
 
 .main {
@@ -82,7 +78,7 @@ button {
     border-radius: 20px;
     width: 140px;
     height: 140px;
-    background-color: antiquewhite;
+    background-color: #3B0918;
     margin-bottom: 10px;
 }
 
@@ -99,7 +95,7 @@ button {
 }
 
 .quotesection {
-    background-color: rgb(210, 231, 209);
+    background-color: #DC4731;
     padding: 80px 140px;
 }
 
@@ -125,16 +121,18 @@ em {
 
 p {
     margin: 0;
+    color: white;
 }
 
 .text {
     font-size: larger;
     font-weight: bold;
     margin-bottom: 8px;
+    color: white;
 }
 
 .action-box {
-    background-color: rgb(95, 166, 187);
+    background-color: #3B0918;
     border-radius: 15px;
     height: 150px;
     display: flex;
@@ -158,7 +156,7 @@ p {
 
 button {
     border-radius: 5px;
-    background-color: aqua;
     width: 80px;
     height: 40px;
+    background-color: #FFF3D9;
 }
